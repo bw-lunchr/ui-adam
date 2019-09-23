@@ -8,19 +8,14 @@ body {
 .jumbo {
   width: 100%;
   margin-top: 2rem;
-  .layout(center, center, row);
-  .img-contain {
-    width: 40%;
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-  }
+  .layout(flex-start, center, row);
+  background-image: url(/img/cafeteria1.jpg);
+  background-size: cover;
+  height: 85vh;
 
   .text-contain {
     width: 60%;
-    padding: 2rem;
+    padding: 4rem;
     background: #b0a18e;
 
     h1 {
@@ -40,9 +35,9 @@ body {
     }
 
     button {
-      padding: 1.5rem;
+      padding: 2rem;
       font-size: 2rem;
-      margin-right: 3rem;
+      margin: 3rem 2rem 0 0;
       border: 2px solid black;
       border-radius: 2rem;
       background: #49412c;

@@ -144,7 +144,7 @@ footer {
 }
 nav h1,
 footer h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #b0a18e;
   margin-left: 3rem;
   font-family: 'Julius Sans One', sans-serif;
@@ -184,21 +184,16 @@ body .pageWrapper {
   width: 100%;
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-}
-.jumbo .img-contain {
-  width: 40%;
-}
-.jumbo .img-contain img {
-  display: block;
-  width: 100%;
-  height: auto;
+  background-image: url(/img/cafeteria1.jpg);
+  background-size: cover;
+  height: 85vh;
 }
 .jumbo .text-contain {
   width: 60%;
-  padding: 2rem;
+  padding: 4rem;
   background: #b0a18e;
 }
 .jumbo .text-contain h1 {
@@ -217,9 +212,9 @@ body .pageWrapper {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .jumbo .text-contain button {
-  padding: 1.5rem;
+  padding: 2rem;
   font-size: 2rem;
-  margin-right: 3rem;
+  margin: 3rem 2rem 0 0;
   border: 2px solid black;
   border-radius: 2rem;
   background: #49412c;
