@@ -273,10 +273,11 @@ body .pageWrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .aboutCardContain .aboutCard {
+  margin: 2rem 0;
   width: 32%;
   border: 3px solid black;
 }
@@ -291,6 +292,7 @@ body .pageWrapper {
 }
 .aboutCardContain .aboutCard .aboutText {
   background: #b0a18e;
+  padding: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .aboutCardContain .aboutCard .aboutText h1 {
@@ -298,7 +300,9 @@ body .pageWrapper {
 }
 .aboutCardContain .aboutCard .aboutText h3 {
   font-size: 2.5rem;
+  padding: 1rem 0;
 }
 .aboutCardContain .aboutCard .aboutText li {
   font-size: 2rem;
+  padding: 0.5rem 0;
 }
