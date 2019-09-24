@@ -167,6 +167,7 @@ nav .outsideLinks a,
 footer .outsideLinks a {
   text-decoration: none;
   font-size: 2.5rem;
+  padding: 1rem;
   color: #b0a18e;
   transition: all 0.5s ease-in-out;
 }
@@ -175,6 +176,13 @@ footer .links a:hover,
 nav .outsideLinks a:hover,
 footer .outsideLinks a:hover {
   transform: scale(1.5);
+}
+nav .links #active,
+footer .links #active,
+nav .outsideLinks #active,
+footer .outsideLinks #active {
+  color: #49412c;
+  background: #b0a18e;
 }
 body .pageWrapper {
   width: 95%;
