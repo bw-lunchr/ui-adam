@@ -195,6 +195,7 @@ body .pageWrapper {
   width: 60%;
   padding: 4rem;
   background: #b0a18e;
+  margin-left: 3rem;
 }
 .jumbo .text-contain h1 {
   font-size: 6rem;
@@ -202,7 +203,7 @@ body .pageWrapper {
   font-family: 'Julius Sans One', sans-serif;
 }
 .jumbo .text-contain h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1.75rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
