@@ -184,6 +184,10 @@ footer .outsideLinks #active {
   color: #49412c;
   background: #b0a18e;
 }
+nav .outsideLinks a,
+footer .outsideLinks a {
+  font-size: 4rem;
+}
 body .pageWrapper {
   width: 95%;
   margin: 0 auto;
