@@ -204,6 +204,13 @@ footer .outsideLinks {
     width: 30%;
   }
 }
+@media (max-width: 644px) {
+  nav .outsideLinks,
+  footer .outsideLinks {
+    width: 100%;
+    font-size: 4rem;
+  }
+}
 nav .outsideLinks a,
 footer .outsideLinks a {
   padding: 1rem;
@@ -227,10 +234,16 @@ footer .outsideLinks a:hover {
   nav .links,
   footer .links {
     width: 100%;
+    padding-bottom: 5rem;
   }
   nav .links a,
   footer .links a {
     font-size: 2rem;
+  }
+}
+@media (max-width: 644px) {
+  footer {
+    height: 15rem;
   }
 }
 body .pageWrapper {
@@ -295,6 +308,25 @@ body .pageWrapper {
     margin-left: 0;
   }
 }
+@media (max-width: 644px) {
+  .jumbo .text-contain {
+    padding: 2rem;
+  }
+  .jumbo .text-contain h1 {
+    font-size: 3rem;
+  }
+  .jumbo .text-contain h3 {
+    font-size: 2rem;
+  }
+  .jumbo .text-contain p {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+  .jumbo .text-contain button {
+    width: 100%;
+    margin: 2rem auto;
+  }
+}
 .card-contain {
   margin: 2rem 0;
   width: 100%;
@@ -325,6 +357,14 @@ body .pageWrapper {
 }
 .card-contain .card .card-info p {
   font-size: 2rem;
+}
+@media (max-width: 644px) {
+  .card-contain {
+    flex-direction: column;
+  }
+  .card-contain .card {
+    width: 100%;
+  }
 }
 .aboutCardContain {
   width: 100%;

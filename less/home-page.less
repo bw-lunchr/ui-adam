@@ -61,7 +61,30 @@ body {
     } 
   }
 
-}
+  @media @phone {
+    .text-contain {
+      padding: 2rem;
+      h1 {
+        font-size: 3rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.75rem;
+        margin-bottom: 0;
+      }
+
+      button {
+        width: 100%;
+        margin: 2rem auto;
+      }
+    }
+  }
+
+} // end jumbo
 
 .card-contain {
   margin: 2rem 0;
@@ -91,6 +114,13 @@ body {
       p {
         font-size: 2rem;
       }
+    }
+  }
+
+  @media @phone {
+    flex-direction: column;
+    .card {
+      width: 100%;
     }
   }
 }
