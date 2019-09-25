@@ -150,9 +150,7 @@ footer h1 {
   font-family: 'Julius Sans One', sans-serif;
 }
 nav .links,
-footer .links,
-nav .outsideLinks,
-footer .outsideLinks {
+footer .links {
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -161,10 +159,14 @@ footer .outsideLinks {
   margin: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
+@media (max-width: 1087px) {
+  nav .links,
+  footer .links {
+    width: 70%;
+  }
+}
 nav .links a,
-footer .links a,
-nav .outsideLinks a,
-footer .outsideLinks a {
+footer .links a {
   text-decoration: none;
   font-size: 2.5rem;
   padding: 1rem;
@@ -172,21 +174,39 @@ footer .outsideLinks a {
   transition: all 0.5s ease-in-out;
 }
 nav .links a:hover,
-footer .links a:hover,
-nav .outsideLinks a:hover,
-footer .outsideLinks a:hover {
+footer .links a:hover {
   transform: scale(1.5);
 }
 nav .links #active,
-footer .links #active,
-nav .outsideLinks #active,
-footer .outsideLinks #active {
+footer .links #active {
   color: #49412c;
   background: #b0a18e;
 }
+nav .outsideLinks,
+footer .outsideLinks {
+  font-size: 4rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem;
+}
+@media (max-width: 1087px) {
+  nav .outsideLinks,
+  footer .outsideLinks {
+    width: 30%;
+  }
+}
 nav .outsideLinks a,
 footer .outsideLinks a {
-  font-size: 4rem;
+  padding: 1rem;
+  color: #b0a18e;
+  transition: all 0.5s ease-in-out;
+}
+nav .outsideLinks a:hover,
+footer .outsideLinks a:hover {
+  transform: scale(1.5);
 }
 body .pageWrapper {
   width: 95%;
