@@ -397,7 +397,7 @@ body .pageWrapper {
   background: #b0a18e;
   padding: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
-  height: 26rem;
+  height: 28rem;
 }
 .aboutCardContain .aboutCard .aboutText h1 {
   font-size: 3rem;
@@ -409,4 +409,19 @@ body .pageWrapper {
 .aboutCardContain .aboutCard .aboutText li {
   font-size: 2rem;
   padding: 0.5rem 0;
+}
+@media (max-width: 884px) {
+  .aboutCardContain .aboutCard {
+    width: 47%;
+  }
+}
+@media (max-width: 644px) {
+  .aboutCardContain .aboutCard {
+    width: 100%;
+  }
+}
+@media (max-width: 644px) {
+  .aboutCardContain {
+    flex-direction: column;
+  }
 }

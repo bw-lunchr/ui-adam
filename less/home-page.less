@@ -154,7 +154,7 @@ body {
       background: #b0a18e;
       padding: 2rem;
       font-family: 'Source Sans Pro', sans-serif;
-      height: 26rem;
+      height: 28rem;
       h1 {
         font-size: 3rem;
       }
@@ -167,5 +167,17 @@ body {
         padding: .5rem 0;
       }
     }
+
+    @media @tablet {
+      width: 47%;
+    }
+
+    @media @phone {
+      width: 100%;
+    }
+  }
+
+  @media @phone {
+    flex-direction: column;
   }
 }
