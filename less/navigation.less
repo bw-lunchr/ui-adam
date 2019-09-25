@@ -13,9 +13,6 @@ nav, footer {
     .layout(space-around, center);
     margin: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
-    @media @desktop {
-      width: 70%;
-    }
     a {
       text-decoration: none;
       font-size: 2.5rem;
@@ -26,6 +23,17 @@ nav, footer {
         transform: scale(1.5);
       }
     }
+
+    @media @tablet {
+      a {
+        font-size: 1.75rem;
+      }
+    }
+
+    @media @desktop {
+      width: 70%;
+    }
+
     #active {
       color: #49412c;
       background: #b0a18e;
@@ -46,6 +54,20 @@ nav, footer {
       transition: all .5s ease-in-out;
       &:hover {
         transform: scale(1.5);
+      }
+    }
+  }
+ 
+  @media @phone {
+    flex-direction: column;
+    height: 12rem;
+    h1 {
+      padding-top: 2rem;
+    }
+    .links {
+      width: 100%;
+      a {
+        font-size: 2rem;
       }
     }
   }

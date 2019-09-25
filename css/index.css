@@ -159,12 +159,6 @@ footer .links {
   margin: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
-@media (max-width: 1087px) {
-  nav .links,
-  footer .links {
-    width: 70%;
-  }
-}
 nav .links a,
 footer .links a {
   text-decoration: none;
@@ -176,6 +170,18 @@ footer .links a {
 nav .links a:hover,
 footer .links a:hover {
   transform: scale(1.5);
+}
+@media (max-width: 884px) {
+  nav .links a,
+  footer .links a {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 1087px) {
+  nav .links,
+  footer .links {
+    width: 70%;
+  }
 }
 nav .links #active,
 footer .links #active {
@@ -207,6 +213,25 @@ footer .outsideLinks a {
 nav .outsideLinks a:hover,
 footer .outsideLinks a:hover {
   transform: scale(1.5);
+}
+@media (max-width: 644px) {
+  nav,
+  footer {
+    flex-direction: column;
+    height: 12rem;
+  }
+  nav h1,
+  footer h1 {
+    padding-top: 2rem;
+  }
+  nav .links,
+  footer .links {
+    width: 100%;
+  }
+  nav .links a,
+  footer .links a {
+    font-size: 2rem;
+  }
 }
 body .pageWrapper {
   width: 95%;
@@ -260,6 +285,15 @@ body .pageWrapper {
   text-decoration: none;
   color: #b0a18e;
   font-family: 'Source Sans Pro', sans-serif;
+}
+@media (max-width: 884px) {
+  .jumbo {
+    justify-content: center;
+  }
+  .jumbo .text-contain {
+    width: 90%;
+    margin-left: 0;
+  }
 }
 .card-contain {
   margin: 2rem 0;
