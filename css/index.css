@@ -347,9 +347,6 @@ body .pageWrapper {
   .jumbo {
     height: 100vh;
   }
-  .jumbo .text-contain {
-    height: 90vh;
-  }
   .jumbo .text-contain h1 {
     font-size: 2rem;
     padding: 0;
